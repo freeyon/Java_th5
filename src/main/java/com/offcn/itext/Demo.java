@@ -11,17 +11,18 @@ import com.itextpdf.layout.element.Paragraph;
 public class Demo {
    
 	   public static void main(String[] args) throws FileNotFoundException {
-		   //´´½¨Á÷
+		   //åˆ›å»ºæµ
 		   PdfWriter pw=new PdfWriter(new File("D:/Program Files/itext/pw01.pdf"));
-		   //´´½¨ÎÄµµ¶ÔÏó
+		   //åˆ›å»ºæ–‡æ¡£å¯¹è±¡
 		   PdfDocument pd=new PdfDocument(pw);
-		   //´´½¨ÄÚÈİÎÄµµ¶ÔÏó
+		   //åˆ›å»ºå†…å®¹æ–‡æ¡£å¯¹è±¡
 		   Document d=new Document(pd);
-		   //Ğ´Èë¶ÎÂä
+		   //å†™å…¥æ®µè½
 		   Paragraph p=new Paragraph("11111");
-		   //Ìí¼Ó¶ÎÂäµ½ ÎÄµµ
+		   //æ·»åŠ æ®µè½åˆ° æ–‡æ¡£
 		   d.add(p);
-		   //Ë¢ĞÂ¹ØÁ÷
+		   //åˆ·æ–°å…³æµ
+		   //æ­»æ­»æ­»æ­»æ­»æ­»æ­»æ­»æ­»æ­»æ­»æ­»æ­»æ­»æ­»
 		   d.close();
 		   
 		   System.out.println("111");
