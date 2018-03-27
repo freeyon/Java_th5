@@ -22,7 +22,7 @@ public class Demo {
 		   //添加段落到 文档
 		   d.add(p);
 		   //刷新关流
-		   //死死死死死死死死死死死死死死死
+		   
 		   d.close();
 		   
 		   System.out.println("111");
